@@ -1,0 +1,59 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "mulish";
+   background-color: #1c1f34;
+   padding-top: 100px;
+
+}
+
+.nav{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   color: black;
+   font-size: 28px;
+   border: 0.000001px solid rgb(84, 84, 84);
+   padding: 5px;
+   border-radius: 40px;
+   font-weight: 600;
+   color: white;
+   background-color: #1c1f34;
+   /* width: ; */
+}
+.nav__chil_top{
+   border-radius: 30px 0 0 30px;
+   padding: 8px 30px;
+}
+
+.nav__chil_top:hover{
+   border-radius: 30px 0 0 30px;
+   box-shadow: 0px 0px 19px -1px rgba(255, 255, 255, 0.2) inset;
+
+}
+
+.nav__chil{
+   padding: 8px 30px;
+   border-radius: 30px ;
+   transition: all .2s ease-in-out;
+}
+
+.nav__chil:hover{
+   box-shadow: 0px 0px 19px -1px rgba(255, 255, 255, 0.2) inset;
+   transition: all .2s ease-in-out;
+
+}
+
+
+.nav__chil_right{
+   border-radius:0 30px  30px 0;
+   transition: all .2s ease-in-out;
+   padding: 8px 30px;
+}
+
+.nav__chil_right:hover{
+   box-shadow: 0px 0px 19px -1px rgba(255, 255, 255, 0.2) inset;
+
+}
